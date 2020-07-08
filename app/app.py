@@ -1,8 +1,6 @@
 from flask import Flask, request
 from models import Response, Data
 import json
-from flask import jsonify
-import time
 from datetime import datetime
 
 app = Flask(__name__)
